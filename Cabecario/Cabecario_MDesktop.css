@@ -1,0 +1,169 @@
+@media screen and (min-width: 992px){
+.Container_Cabecario_Smartphone{
+    display: none;
+}
+
+    .Logo_Home{
+        position: absolute;
+        margin:30px 0px 0px 80px ;
+        left:100px;
+        
+    }
+    
+    .Barra_Opcoes{
+        display:flex;
+        position: absolute;
+        width: 57%;
+        height: 60px;
+        background-color: rgb(182, 51, 54);
+        border-bottom-left-radius: 502px 100px;
+        right: 0px;
+        top:0px;
+        padding: 1px;
+        
+    }
+    
+    .Fonte_Opcoes{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 27px;
+        color: white; 
+        left:0px;
+    }
+    
+    .Home{
+        display: inline;
+        margin-left: 200px;
+       color:rgb(219 237 7);
+    }
+    
+    .Catalogo{
+        display: inline;
+        margin-left:80px;
+    
+    }
+    
+    .Sobre{
+        display: inline;
+        margin-left: 80px;
+    }
+    
+    .Contato{
+        display: inline-block;
+        margin-left: 80px;
+        margin-top:14px;
+    }
+
+    .Catalogo:hover , .Sobre:hover , .Contato:hover {
+        color:rgb(219 237 7);
+    }
+
+    /*Telefone*/
+    .Telefone_Cabecario{
+        display: flex;
+        position: relative;
+        top:40px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 27px;
+        color: black; 
+       
+    }
+/*Ligação*/
+    .T_Telefone{
+        display: flex;
+       position: absolute;
+       right: 300px;
+    }
+    .T_45{
+        position: relative;
+        margin-left: 5px;
+        top:2px;
+        font-size: 0.8em;
+
+    }
+
+    .T_99{
+        position: relative;
+        font-size:1.2em;
+        margin-right: 30px;
+        margin-left: 5px;
+        
+    }
+    .T_icon{
+        position: relative;
+        top:5px;
+        color:rgb(87, 187, 87);
+    }
+    
+
+    /*Whats*/
+    .W_Telefone{
+        display: flex;
+        position: absolute;
+        right: 0px;
+        margin-right: 70px;
+        
+        margin-left: 40px;
+    }
+
+    .W_45{
+        position: relative;
+       top:1px;
+       font-size:0.9em;
+       margin-left: 5px;
+    }
+
+    .W_99{
+       display: inline-block;
+        position: relative;
+        font-size:1.2em;
+        margin-left: 5px;
+
+    }
+
+    .W_icon{
+       position: relative;
+       top:1px;
+       color:green;
+    }
+
+
+
+
+    .Separador_Procure{
+        display: flex;
+        position: relative;
+        left:-1%;
+        width: 101.4%;
+        height: 35px;
+        background-color:rgb(182, 51, 54);
+        top:128px;
+    }
+    
+    .Procure{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 27px;
+        color: white; 
+    }
+    
+    .Procure{
+        display: flex;
+        position: relative;
+        margin-top: 4px;
+        left:45%;
+    }
+    .Retalhos{
+        color: rgb(212,237,55);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
