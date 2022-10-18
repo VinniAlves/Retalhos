@@ -1,7 +1,15 @@
 @media screen and (min-width: 992px){
 .Container_Cabecario_Smartphone{
     display: none;
+    
 }
+body{
+    margin: 0px;
+    border: none;
+    outline: 0;
+    
+}
+
 
     .Logo_Home{
         position: absolute;
@@ -11,17 +19,17 @@
     }
     
     .Barra_Opcoes{
-        display:flex;
-        position: absolute;
-        width: 57%;
+        display: inline-block;
+        position:absolute;
+        right: 0px;
+        width: 60%;
         height: 60px;
         background-color: rgb(182, 51, 54);
         border-bottom-left-radius: 502px 100px;
-        right: 0px;
         top:0px;
-        padding: 1px;
         
     }
+
     
     .Fonte_Opcoes{
         font-family: 'Montserrat';
@@ -31,30 +39,66 @@
         line-height: 27px;
         color: white; 
         left:0px;
+        
     }
     
     .Home{
-        display: inline;
+        
+        display: inline-block;
         margin-left: 200px;
        color:rgb(219 237 7);
+       margin-top: 14px;
+       
+    
+    }
+
+    @media screen and  (max-width:1291px) { 
+        .Home{
+           margin-left: 150px;
+        }
+        .Catalogo  .Sobre .Contato{
+            margin-left: 50px;
+        }
+
     }
     
+    @media screen and (max-width:1195px) {
+        .Home{
+            margin-left: 100px;
+        }
+        .Catalogo{
+            margin-left: 30px;
+        }
+    }
+
+   
+
     .Catalogo{
-        display: inline;
+        
+        display: inline-block;
         margin-left:80px;
+        margin-top: 14px;
+
     
     }
     
     .Sobre{
-        display: inline;
+        
+        display: inline-block;
         margin-left: 80px;
+        margin-top: 14px;
     }
     
     .Contato{
+        
         display: inline-block;
         margin-left: 80px;
         margin-top:14px;
+        
+
     }
+
+    
 
     .Catalogo:hover , .Sobre:hover , .Contato:hover {
         color:rgb(219 237 7);
@@ -62,20 +106,22 @@
 
     /*Telefone*/
     .Telefone_Cabecario{
-        display: flex;
+        
         position: relative;
-        top:40px;
+        top:0px;
         font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 400px;
         font-size: 1em;
         line-height: 27px;
         color: black; 
+        margin-top:50px;
        
     }
 /*Ligação*/
     .T_Telefone{
         display: flex;
+        flex-direction: row;
        position: absolute;
        right: 300px;
     }
@@ -133,22 +179,19 @@
     }
 
 
-
-
     .Separador_Procure{
-        display: flex;
         position: relative;
-        left:-1%;
-        width: 101.4%;
+        left: auto;
+        width: 100%;
         height: 35px;
         background-color:rgb(182, 51, 54);
-        top:128px;
+        top:140px;
     }
     
     .Procure{
         font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 400px;
         font-size: 1em;
         line-height: 27px;
         color: white; 
@@ -157,13 +200,80 @@
     .Procure{
         display: flex;
         position: relative;
-        margin-top: 4px;
-        left:45%;
+       left:42.3%;
+        top:4px;
+        width: 40%;
+        
     }
     .Retalhos{
         color: rgb(212,237,55);
         margin-left: 5px;
         margin-right: 5px;
+        
     }
     
+  
+    
+.Central_Container{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top:124px;
+   
+}
+
+.Central{
+    display: inline;
+    position: relative;
+    left: 20%;
+}
+
+
+.Pecas_Diver{
+
+    position: relative;
+    transform: rotate(180deg);
+    height: 10;
+    width: 15%;
+    border-bottom: 50px solid rgb(203, 54, 58);
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+   
+    top:124px;
+    /*Sobre ponha elementos*/
+    z-index: 1;
+    /* Centalizar elementos*/
+    margin: 0 auto;
+}
+
+.Font{
+    position: absolute;
+    transform: rotate(180deg);
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 1em;
+        line-height: 27px;
+        color: black; 
+        right: 50%;
+}
+
+
+
+.Pecas{
+    display: inline-block;
+    position: relative;
+   right: 20%;
+}
+
+.Diver{
+    position: relative;
+    right:45%;
+    color:rgb(212,237,55);
+}
+
+
+
+
+
 }
