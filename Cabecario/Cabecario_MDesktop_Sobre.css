@@ -265,4 +265,54 @@ body{
     color:rgb(212,237,55);
 }
 
+.Fix_Mercado{
+    position: fixed;
+    right: -160px;
+    width: 250px;
+   
+    height: 70px;
+   
+    z-index: 2;
+    top:70%;
+
+    background-color:rgb(255, 209, 1);
+    
+                /*C-E, C-D , B-D, B-E */
+    border-radius: 10px 1px  1px   10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1em;
+    line-height: 27px;
+    color: black; 
+
+    -webkit-transition: -webkit-transform 2s;
+    transition:   transform 2s;
+
+}
+
+.Fix_Mercado:hover{
+-webkit-transform: translatex(-135px);
+transform:translate(-135px);
+}
+
+
+.Img_ML{
+position: relative;
+top:-8px;
+}
+
+.Text_ML{
+position: absolute;
+top:13px;
+right: 40px;
+}
+
+.Text_MCL{
+position: absolute;
+top:38px;
+right: 38px;
+}
+
 }
