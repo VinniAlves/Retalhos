@@ -44,34 +44,16 @@ body{
     
    
 
-    /*
-    @media screen and  (max-width:1291px) { 
-        .Home{
-           margin-left: 150px;
-        }
-        .Catalogo  .Sobre .Contato{
-            margin-left: 50px;
-        }
-
-    }
-    
-    @media screen and (max-width:1195px) {
-        .Home{
-            margin-left: 100px;
-        }
-        
-    }
-
-   */
+ 
 
    .Home{     
     display: inline-block;
     /*margin-left: 200px;*/
-    color:rgb(219 237 7);
     margin-top: 14px;
     position: relative;
     left:20%;
     text-decoration: none;
+    color:white;
     }
 
     .Catalogo{
@@ -90,7 +72,7 @@ body{
         display: inline-block;
       /*  margin-left: 80px;*/
         margin-top: 14px;
-        color: white;
+        color:rgb(219 237 7);
         text-decoration: none;
         position: relative;
         left:32%;
@@ -109,7 +91,7 @@ body{
 
     
 
-    .Catalogo:hover , .Sobre:hover , .Contato:hover {
+    .Catalogo:hover , .Home:hover , .Contato:hover {
         color:rgb(219 237 7);
     }
 
@@ -272,12 +254,14 @@ body{
 .Pecas{
     display: inline-block;
     position: relative;
-   right: 20%;
+    right: 18%;
+    color: white;
 }
 
 .Diver{
     position: relative;
-    right:45%;
+    right:36%;
+    width: 200px;
     color:rgb(212,237,55);
 }
 

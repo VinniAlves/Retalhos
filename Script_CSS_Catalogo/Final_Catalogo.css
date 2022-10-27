@@ -1,10 +1,56 @@
 .barra_final{
-    top:72px;
+    top:335px;
     position: relative;
     background-color: rgb(182, 51, 54);
     height: 10px;
     width: 100%;
 }
+
+.barra_meio{
+    top:130px;
+    position: relative;
+    background-color: rgb(182, 51, 54);
+    height: 10px;
+    width: 100%;
+}
+
+.Font_Frase_Meio{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    
+    position: relative;
+    top:130px;
+    text-align: center;
+
+}
+
+.Text_prod{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 1.4em;
+    line-height: 27px;
+    text-align: center;
+    position: relative;
+    top:200px;
+}
+
+.Merc{
+    position: relative;
+    top:30px;
+    
+}
+
+.Merc_01{
+    position: relative;
+    top: 40px;
+    color:black;
+    text-decoration: underline rgb(255,209,1);
+}
+
 
 .Fale_cons{
     position: relative;
@@ -59,7 +105,7 @@
 
 .Container_Verm{
 position: relative;
-top:72px;
+top:335px;
 }
 
 .Verm_Esq{
@@ -67,7 +113,7 @@ top:72px;
     position: absolute;
     background-color: rgba(203, 54, 58, 1);
     width: 50%;
-    height: 300px;
+    height:300px;
     
 }
 
@@ -78,6 +124,14 @@ top:72px;
     width:50%;
     height: 300px;
     right:0px;
+}
+
+.Frase_Contato{
+    position: absolute;
+    font-size: 1.2em;
+    z-index: 2;
+    top:73px;
+    right:30%;
 }
 
 .Telefone_Final {
@@ -105,12 +159,20 @@ top:72px;
     
 }
 
+
+
 .T_99_F{
     position: absolute;
     z-index: 2;
     top:105px;
-    left:52%;
+    left:52%
     
+}
+
+@media screen and (max-width:1588px) {
+  .T_99_F{
+    left: 52.8%;
+  }  
 }
 
 .T_Houver{
@@ -144,6 +206,13 @@ top:72px;
     left:52%;
     
 }
+
+@media screen and (max-width:1588px) {
+    .W_99_F{
+      left: 52.8%;
+    }  
+  }
+
 .W_Houver{
     color: white;
 }
@@ -158,27 +227,6 @@ top:72px;
     z-index: 2;
     right:51.4%;
     top:240px;
-}
-
-.e-mail{
-    position: absolute;
-    z-index: 2;
-    color:white;
-    right:51.6%;
-    top:200px;
-}
-
-.e-mail_text{
-    position: absolute;
-    z-index: 2;
-    top:202px;
-    left:50.5%;
-    text-decoration: none;
-    color:white;
-}
-
-.e-mail_text:hover, .e-mail:hover{
-    color:rgb(212,237,55);
 }
 
 .Text_mercado{
@@ -199,11 +247,38 @@ top:72px;
     color:rgb(212,237,55);
 }
 
+.e-mail{
+    position: absolute;
+    z-index: 2;
+    color:white;
+    right:51.6%;
+    top:200px;
+}
+
+
+
+.e-mail_text{
+    position: absolute;
+    z-index: 2;
+    top:202px;
+    left:50.5%;
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+.e-mail_text:hover, .e-mail:hover{
+    color:rgb(212,237,55);
+}
+
+
 .Agrad_Border{
     position: relative;
     height: 35px;
     width: 100%;
-    top: 372px;
+    top: 635px;
     background-color: rgb( 0, 0, 1);
 }
 
@@ -214,7 +289,9 @@ top:72px;
     font-size: 1.1em;
     line-height: 27px;
     color:white;
-    position: absolute;
-    left: 30%;
+    position: relative;
+    top:3px;
+    text-align: center;
 }
+
 
