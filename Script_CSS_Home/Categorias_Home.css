@@ -1,5 +1,4 @@
 
-
 .Catalogo_Tipos{
     display: inline-block;
     position: relative;
@@ -7,7 +6,7 @@
 
     width: 100%;
     height: 671px;
-    
+    background: url('/Fotos/Fundo_Catalogo.png');
     
 }
 

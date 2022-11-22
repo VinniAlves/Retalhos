@@ -38,7 +38,7 @@
     left: 5%;
 }
 
-.Capo{
+.Capo_Smart{
     display: inline-block;
     position: relative;
     background:white;
@@ -53,7 +53,7 @@
     
 }
 
-.Capo_img{
+.Capo_img_Smart{
     position: relative;
     top: 30%;
     left: 18%;
@@ -61,7 +61,7 @@
 
 
 
-.Portas{
+.Portas_Smart{
     display: inline-block; 
     position: absolute;
     background:white;
@@ -74,7 +74,7 @@
     top: 100px;
 }
 
-.Portas_img{
+.Portas_img_Smart{
     position: relative;
     top: 6%;
     left: 24%;
@@ -82,7 +82,7 @@
 
 
 
-.Tampa_Traseira{
+.Tampa_Traseira_Smart{
   display: inline-block;  
     position: absolute;
     background:white;
@@ -95,7 +95,7 @@
     top: 100px;
 }
 
-.Tampa_img{
+.Tampa_img_Smart{
     position: relative;
     top:24%;
     left: 16%;
@@ -104,7 +104,7 @@
 
 
 
-.Paralamas{
+.Paralamas_Smart{
     display: inline-block;
     position: absolute;
     background:white;
@@ -117,7 +117,7 @@
     left:80px;
 }
 
-.Paralamas_img{
+.Paralamas_img_Smart{
     position: relative;
     top:14%;
     left: 9%;
@@ -125,7 +125,7 @@
 
 
 
-.Parachoque{
+.Parachoque_Smart{
     display: inline-block; 
     position: absolute;
     background:white;
@@ -138,7 +138,7 @@
     right: 80px;
 }
 
-.Parachoque_img{
+.Parachoque_img_Smart{
     position: relative;
     top:10%;
     left: 15%;
@@ -146,7 +146,7 @@
 
 
 
-.Laterais{
+.Laterais_Smart{
     display: inline-block;  
     position: absolute;
     background:white;
@@ -159,7 +159,7 @@
     top: 200px;
 }
 
-.Laterais_img{
+.Laterais_img_Smart{
     position: relative;
     top:20%;
     left: 4%;
@@ -167,7 +167,7 @@
 
 
 
-.Painel_Dianteiro{
+.Painel_Dianteiro_Smart{
     display: inline-block; 
     position: absolute;
     background:white;
@@ -180,14 +180,14 @@
     top: 200px;
 }
 
-.Dianteiro_img{
+.Dianteiro_img_Smart{
     position: relative;
     top:35%;
     left: 8%;
 }
 
 
-.Painel_Traseiro{
+.Painel_Traseiro_Smart{
     display: inline-block;
     position: absolute;
     background:white;
@@ -200,7 +200,7 @@
     left: 80px;
 }
 
-.Traseiro_img{
+.Traseiro_img_Smart{
     position: relative;
     top:26%;
     left: 14%;
