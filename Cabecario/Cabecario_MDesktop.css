@@ -1,8 +1,7 @@
 @media screen and (min-width: 992px){
-.Container_Cabecario_Smartphone{
-    display: none;
     
-}
+
+
 body{
     margin: 0px;
     border: none;
@@ -273,6 +272,7 @@ body{
     display: inline-block;
     position: relative;
    right: 20%;
+   color:white;
 }
 
 .Diver{
@@ -331,7 +331,7 @@ body{
     right: 38px;
 }
 
-
-
-
 }
+
+
+

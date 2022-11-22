@@ -88,13 +88,18 @@ top:72px;
     top:100px;
 }
 
-.T_Houver:hover {
+
+
+.T_Houver:hover  {
     color:rgb(212,237,55);
 }
+
 
 .Telefone_Final:hover{
     color:green;
 }
+
+
 
 .T_45_F{
     position: absolute;
@@ -105,7 +110,9 @@ top:72px;
     
 }
 
-
+.T_Houver{
+    color:white;
+}
 
 .T_99_F{
     position: absolute;
@@ -121,9 +128,7 @@ top:72px;
   }  
 }
 
-.T_Houver{
-    color:white;
-}
+
 .Whatsapp_Final{
     position: absolute;
     z-index: 2;

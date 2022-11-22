@@ -13,8 +13,19 @@
     <link href="Script_CSS_Global/Logos_Pesquisas.css" rel="stylesheet"/>
     <link href="Script_CSS_Home/Categorias_Home.css" rel="stylesheet"/>
     <link href="Script_CSS_Home/Final_home.css" rel="stylesheet"/>
+    <link href="Responsividades/Responsividade_Home.css" rel="stylesheet"/>
+   
+    
+    <script type="text/javascript" src="Smartphone/Script_JS/Script_Java_Home.js"></script>
+    
+    
+   
 
-    <script src="Script_JS/Function_Switch_Sobre.js"></script>
+    <!-- SMARTPHONE-->
+    
+    <link href="Smartphone/Home_CSS/Cabecario.css" rel="stylesheet">
+    <link href="Smartphone/Home_CSS/Catalogo_Smart.css" rel="stylesheet">
+
     <!--/Imports-->
 
 </head>
@@ -26,10 +37,9 @@
             <img src ="Fotos/Retalhos_Cascavel_PNG-1.png" alt="Logo_home"
             width= "244px"
             height= "94px">
-
+            
         </div>
 
-       
 
         <div class="Barra_Opcoes">
             <div class="Fonte_Opcoes">
@@ -338,27 +348,127 @@
 </div>
 
 
+<!-- ================= SMARTPHONE ========================= -->
+<div class="Container_Master_Smartphone">
+<div class ="Logo_Home_Cabecario">
+    <img src="Fotos/Retalhos_Cascavel_PNG-1.png" width="130px" >
+</div>
 
-    <!-- Smartphone -->
-    <div class ="Container_Cabecario_Smartphone">
-        
-        <div class="Barra_Menu">
-            <div class="Menu_Barras"><svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-              </svg></div>
-            
+
+<div class="master_btndonw">
+<div class="dropdown">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="45" fill="currentColor" onclick="myFunction()" class="dropbtn" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg>
+    
+    <div id="myDropdown" class="dropdown-content" >
+        <a >Home</a>
+        <a  onclick="catFunction()" class="dropbtn_cat">Catálogo Peças</a>
+        <div class="part">
+        <a >Sobre</a>
+        <a >Contato</a>
         </div>
-        
-        <div class = "Logo_Home_Smart">
-            <img src ="Fotos/Retalhos_Cascavel_PNG-1.png" alt="Logo_home"
-            width= "29%"
-            height= "29%">
-        </div>
+    </div>
 
-
+    <div id="catDropdown" class="dropdown-content-two" >
+        <a >Home</a>
+        <a >Sobre</a>
+        <a >Contato</a>
     </div>
 
 
+  </div>
+</div>
 
+<div class="Div_Smart_Cab"></div>
+
+<div class="pecas_Diver_Smart">
+    <div class="Font_Smart_pcDv">
+    <div class="Pecas_Smart">Peças</div>
+    <div class="Diver_Smart">Diversificadas</div>
+    </div>
+</div>
+<!--
+<div  class="background_Smart">
+    <img src="/Fotos/Fundo_Catalogo.png" width="100%" height="360px">
+</div>
+-->
+
+<!--========== CATALOGOS DE TIPO DE ITENS ================-->
+
+<div class="Catalogo_Tipos_Smart">
+    <div class="Background_Catalogo_Tipos">
+        
+        <div class="Categorias_Smart">
+            <div class="Font_Categorias_Smart">
+  
+                    <div class="Portas">
+                                
+                               
+                                <div class="Portas_img">
+                                    <img src="Fotos/porta.png" alt="portas" width="55%" >
+                                </div>                                 
+
+                            <div class="Capo">
+                                
+                                <div class="Capo_img">
+                                    <img src="Fotos/capo.png" alt="capo" width="65%" >
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="Tampa_Traseira">
+                        
+                                <div class="Tampa_img">
+                                    <img src="Fotos/tampa traseira.png" alt="tampa" width="85%" >
+                                </div>
+
+                        <div class="Paralamas">
+                            
+                                <div class="Paralamas_img">
+                                    <img src="Fotos/paralamas.png" alt="paralamas" width="70%" >
+                                </div>
+                        </div>
+                    </div>
+                    
+
+                
+                    
+                    <div class="Laterais">
+
+                              <div class="Laterais_img">
+                                    <img src="Fotos/Lateral.png" alt="Laterais" width="95%" >
+                                </div>
+
+                        <div class="Parachoque">
+                            
+                                <div class="Parachoque_img">
+                                    <img src="Fotos/parachoque.png" alt="parachoque" width="70%" >
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="Painel_Dianteiro">
+                        
+                                <div class="Dianteiro_img">
+                                    <img src="Fotos/painel dianteiro.png" alt="dianteiro" width="85%" >
+                                </div>
+
+                        <div class="Painel_Traseiro">
+                            
+                                <div class="Traseiro_img">
+                                    <img src="Fotos/painel traseiro.png" alt="traseiro" width="70%" >
+                                </div>
+                        </div>
+                    </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
 </body>
 </html>
