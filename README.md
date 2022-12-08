@@ -6,5 +6,7 @@ Seu foco é para mostrar um catalogo de peças para carros.
 Site para teste [Cascavel Retalhos](https://vinnialves.github.io/Retalhos/Home.html).
 
 Processos em andamentos:
+
 Responsividade pagina Desktop: ✅
+
 Responsividade página Smarphne: Em andamento
