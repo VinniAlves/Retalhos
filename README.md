@@ -9,4 +9,4 @@ Processos em andamentos:
 
 Responsividade pagina Desktop: ✅
 
-Responsividade página Smarphne: Em andamento
+Responsividade página Smarphne: ✅
