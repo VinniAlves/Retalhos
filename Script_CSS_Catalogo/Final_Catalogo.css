@@ -101,6 +101,7 @@
     font-size: 1.17em;
     line-height: 27px;
     color:white;
+    height: 0px;
 }
 
 .Container_Verm{
@@ -126,92 +127,84 @@ top:335px;
     right:0px;
 }
 
-.Frase_Contato{
-    position: absolute;
-    font-size: 1.2em;
-    z-index: 2;
-    top:73px;
-    right:30%;
+/* === Telefone ===*/
+.Container_Tel_Desk{
+    position: relative;
+    text-align: center;
+    top:90px;
 }
 
-.Telefone_Final {
-    position: absolute;
+.Tel_Icon_Final {
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
     color:white;
-    right:51.6%;
-    top:100px;
-}
-
-.T_Houver:hover {
-    color:rgb(212,237,55);
-}
-
-.Telefone_Final:hover{
-    color:green;
+    left: 40px;
+    top: 3px;
 }
 
 .T_45_F{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
-    top:107px;
-    left: 50.5%;
-    font-size: 0.8em;
-    
+    color:white;
+    font-size: 0.7em;
+    left: 63px;
+    bottom: 1px;
 }
-
 
 
 .T_99_F{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
-    top:105px;
-    left:52%
-    
+    color:white;    
+    left: 64px;
 }
 
-@media screen and (max-width:1588px) {
-  .T_99_F{
-    left: 52.8%;
-  }  
+
+/*Whatsapp*/
+
+.Container_Wts_Desk{
+    position: relative;
+    text-align: center;
+    top:110px;
 }
 
-.T_Houver{
-    color:white;
-}
-.Whatsapp_Final{
-    position: absolute;
+.Whatsapp_Icon_Final{
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
     color: white;
-    right:51.6%;
-    top:150px;
+    left: 40px;
+    top:3px;
 }
 
-.Whatsapp_Final:hover{
-    color:rgb(0, 255, 0);
-}
 
 .W_45_F{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
-    font-size: 0.8em;
-    top:155px;
-    left: 50.5%;
-    
+    font-size: 0.7em;
+    color:white; 
+    left: 63px;
 }
 
 .W_99_F{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
-    top:153px;
-    left:52%;
-    
+    color:white; 
+    left: 64px;
 }
 
-@media screen and (max-width:1588px) {
-    .W_99_F{
-      left: 52.8%;
-    }  
-  }
+
 
 .W_Houver{
     color: white;
@@ -222,56 +215,62 @@ top:335px;
 }
 
 
-.Mercado_Livre{
-    position: absolute;
-    z-index: 2;
-    right:51.4%;
-    top:240px;
+/*==== Email ==== */
+.Container_Email_Desk{
+    position: relative;
+    text-align: center;
+    top:130px;
 }
 
-.Text_mercado{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 1.17em;
-    line-height: 27px;
-    color:white;
-    position: absolute;
-    z-index: 2;
-
-    top:245px;
-    left: 50.5%;
-    text-decoration: none;
-}
-.Text_mercado:hover{
-    color:rgb(212,237,55);
-}
-
-.e-mail{
-    position: absolute;
+.e-mail_Icon{
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
     color:white;
-    right:51.6%;
-    top:200px;
+    left: 107px;
+    top: 4px;
 }
-
-
 
 .e-mail_text{
-    position: absolute;
+    display: inline-block;
+    position: relative;
+    text-align: center;
     z-index: 2;
-    top:202px;
-    left:50.5%;
     text-decoration: none;
     color:white;
+    left: 132px;
 }
 
-
-
-
-.e-mail_text:hover, .e-mail:hover{
-    color:rgb(212,237,55);
+/*=== Mercado === */ 
+.Container_ML_Desk{
+    position: relative;
+    text-align: center;
+    top:130px;
 }
+.Text_mercado{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    top:2px;
+    color:white;
+    text-decoration: none;
+    left: 55px;
+}
+
+.Mercado_Icon{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color:white;
+    top: 12px;
+    left: 36px;
+}
+
+/* === Fim verm === */
+
 
 
 .Agrad_Border{
