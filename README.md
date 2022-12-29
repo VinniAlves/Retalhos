@@ -10,3 +10,5 @@ Processos em andamentos:
 Responsividade pagina Desktop: ✅
 
 Responsividade página Smarphne: ✅
+
+Fazer catalogo com peças a mostras: Em processo.
